@@ -1,0 +1,48 @@
+.suggested-places {
+  padding: 20px;
+  background-color: rgba(25, 25, 121, 0.377);
+}
+.suggested-places h2 {
+  color: #fff;
+}
+.places-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.place-card {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.place-image {
+  width: 150px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.place-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.place-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.place-description {
+  color: #666;
+  margin: 5px 0 0 0;
+}
+
+.back-button:hover {
+  background-color: #fff;
+}
